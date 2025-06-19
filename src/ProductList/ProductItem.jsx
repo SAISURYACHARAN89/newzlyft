@@ -93,7 +93,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Food &amp; Beverages</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -101,7 +101,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Haldiram's Sev Bhujia
+                      Paneer Pizza
                     </Link>
                   </h2>
                   <div>
@@ -398,7 +398,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Snack &amp; Munchies</small>
+                      <small>Food &amp; Beverages</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -406,7 +406,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Onion Flavour Potato
+                      Chicken Biryani
                     </Link>
                   </h2>
                   <div className="text-warning">
@@ -603,7 +603,7 @@ const ProductItem = () => {
                   </div>
                   <div className="text-small mb-1">
                     <Link href="#!" className="text-decoration-none text-muted">
-                      <small>Dairy, Bread &amp; Eggs</small>
+                      <small>Cool Drinks</small>
                     </Link>
                   </div>
                   <h2 className="fs-6">
@@ -611,7 +611,7 @@ const ProductItem = () => {
                       href="#!"
                       className="text-inherit text-decoration-none"
                     >
-                      Blueberry Greek Yogurt
+                      Thumps Up 500ml
                     </Link>
                   </h2>
                   <div>

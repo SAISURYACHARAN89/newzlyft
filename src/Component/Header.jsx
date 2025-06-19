@@ -25,7 +25,7 @@ const Header = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-10 col-12 d-flex " style={{ alignItems: 'center' }}>
-                  <span> Super Value Deals - Save more with coupons</span>
+                  {/* <span> Super Value Deals - Save more with coupons</span> */}
                 </div>
                 <div className="col-md-2 col-xxl-1 text-end d-none d-lg-block" style={{ marginLeft: '20px' }}>
                   <div className="list-inline">
@@ -297,27 +297,19 @@ const Header = () => {
                 className="dropdown-menu sm-menu"
                 aria-labelledby="navbarDropdown"
               >
-                <Link className="dropdown-item" to="/Shop">
-                  Dairy, Bread &amp; Eggs
+                <Link className="dropdown-item" to="/Food">
+                  Food
                 </Link>
                 <Link className="dropdown-item" to="/Shop">
-                  Snacks &amp; Munchies
+                  Groceries
                 </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Fruits &amp; Vegetables
+                <Link className="dropdown-item" to="/Medicines">
+                  Medicines
                 </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Cold Drinks &amp; Juices
+                <Link className="dropdown-item" to="/Parcel">
+                  Parcel
                 </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Breakfast &amp; Instant Food
-                </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Bakery &amp; Biscuits
-                </Link>
-                <Link className="dropdown-item" to="/Shop">
-                  Chicken, Meat &amp; Fish
-                </Link>
+                
               </div>
             </li>
           </li>
@@ -326,74 +318,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item dmenu dropdown">
-            <Link
-              className="nav-link dropdown-toggle"
-              to="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              About
-            </Link>
-            <div
-              className="dropdown-menu sm-menu"
-              aria-labelledby="navbarDropdown"
-            >
-              <Link class="dropdown-item" to="/Blog">
-                Blog
-              </Link>
-              {/* <Link className="dropdown-item" to="pages/blog-single.html">
-                    Blog Single
-                  </Link> */}
-              <Link className="dropdown-item" to="/BlogCategory">
-                Blog Category
-              </Link>
-              <Link className="dropdown-item" to="/AboutUs">
-                About us
-              </Link>
-              {/* <Link className="dropdown-item" to="pages/404error.html">
-                    404 Error
-                  </Link> */}
-              <Link className="dropdown-item" to="/Contact">
-                Contact
-              </Link>
-            </div>
-          </li>
-
-          <li className="nav-item dmenu dropdown">
-            <Link
-              className="nav-link dropdown-toggle"
-              to="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Shop
-            </Link>
-            <div
-              className="dropdown-menu sm-menu"
-              aria-labelledby="navbarDropdown"
-            >
-              <Link className="dropdown-item" to="/Shop">
-                Shop
-              </Link>
-              <Link className="dropdown-item" to="/ShopWishList">
-                Shop Wishlist
-              </Link>
-              <Link className="dropdown-item" to="/ShopCart">
-                Shop Cart
-              </Link>
-              <Link className="dropdown-item" to="/ShopCheckOut">
-                Shop Checkout
-              </Link>
-            </div>
-          </li>
-
+          
           <li className="nav-item dmenu dropdown">
             <Link
               className="nav-link dropdown-toggle"
@@ -463,150 +388,7 @@ const Header = () => {
                 </div>
               </li> */}
 
-          <li className="nav-item dropdown megamenu-li dmenu">
-            <Link
-              className="nav-link dropdown-toggle"
-              to="/Shop"
-              id="dropdown01"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              All Services
-            </Link>
-            <div
-              className="dropdown-menu megamenu sm-menu border-top"
-              aria-labelledby="dropdown01"
-            >
-              <div className="row">
-                <div className="col-sm-6 col-lg-3 border-right mb-4">
-                  <div>
-                    <h6 className="text-primary ps-3">
-                      Dairy, Bread &amp; Eggs
-                    </h6>
-                    <Link className="dropdown-item" to="/Shop">
-                      Butter
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Milk Drinks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Curd &amp; Yogurt
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Eggs
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Buns &amp; Bakery
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Cheese
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Condensed Milk
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Dairy Products
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 border-right mb-4">
-                  <div>
-                    <h6 className="text-primary ps-3">
-                      Breakfast &amp; Instant Food
-                    </h6>
-                    <Link className="dropdown-item" to="/Shop">
-                      Breakfast Cereal
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Noodles, Pasta &amp; Soup
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Frozen Veg Snacks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Frozen Non-Veg Snacks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Vermicelli
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Instant Mixes
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Batter
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      {" "}
-                      Fruit and Juices
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-sm-6 col-lg-3 mb-4">
-                  <div>
-                    <h6 className="text-primary ps-3">
-                      Cold Drinks &amp; Juices
-                    </h6>
-                    <Link className="dropdown-item" to="/Shop">
-                      Soft Drinks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Fruit Juices
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Coldpress
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Water &amp; Ice Cubes
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Soda &amp; Mixers
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Health Drinks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Herbal Drinks
-                    </Link>
-                    <Link className="dropdown-item" to="/Shop">
-                      Milk Drinks
-                    </Link>
-                  </div>
-                </div>
-
-                {/* <div className="row"> */}
-                <div className="col-sm-6 col-lg-3 border-right mb-4">
-                  <div className="card border-0">
-                    <img
-                      src={menubanner}
-                      style={{ width: "90%" }}
-                      alt="eCommerce HTML Template"
-                      className="img-fluid rounded-3"
-                    />
-                    <div className="position-absolute ps-6 mt-8">
-                      <h5 className=" mb-0 ">
-                        Dont miss this <br />
-                        offer today.
-                      </h5>
-                      <Link
-                        to="/Shop"
-                        className="btn btn-primary btn-sm mt-3"
-                      >
-                        Shop Now
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* </div> */}
-            </div>
-          </li>
-
+          
           <li className="nav-item dmenu dropdown">
             <Link
               className="nav-link dropdown-toggle"

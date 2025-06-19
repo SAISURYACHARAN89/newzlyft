@@ -36,38 +36,7 @@ const Footer = () => {
                     your ideas into reality.
                   </p>
                 </div>
-                <div className="dimc-protect">
-                  <div className="col-lg-5 text-lg-start text-center mb-2 mb-lg-0">
-                    <h4>Payment Partners</h4>
-                    <ul className="list-inline d-flex mb-0">
-                      <li className="list-inline-item">
-                        <Link to="#!">
-                          <img src={amazonpay} alt="footerfreshcart" />
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link to="#!">
-                          <img src={american} alt="footerfreshcart" />
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link to="#!">
-                          <img src={mastercard} alt="footerfreshcart" />
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link to="#!">
-                          <img src={paypal} alt="footerfreshcart" />
-                        </Link>
-                      </li>
-                      <li className="list-inline-item">
-                        <Link to="#!">
-                          <img src={visa} alt="footerfreshcart" />
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                
               </div>
               <div className="col-sm-6 col-lg-3 mb-30">
                 <div className="footer-widget mb-0">
@@ -305,22 +274,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="footer-bar ">
-            <div className="container text-center">
-              <div className="footer-copy">
-                <div className="copyright">
-                  © {year} All Rights Reserved By _
-                  
-                  <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
-                    target="_blank"
-                  >
-                     @nigammishra
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+          
         </footer>
       </>
     </div>

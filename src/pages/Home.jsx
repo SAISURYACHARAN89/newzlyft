@@ -343,7 +343,7 @@ const Home = () => {
                             {/* text */}
                             <div className="ms-lg-4">
                               <h1 className="fs-2 mb-1">
-                                Welcome to FreshCart
+                                Welcome to Zlyft
                               </h1>
                               <span>
                                 Download the app get free food &amp;{" "}
@@ -355,7 +355,7 @@ const Home = () => {
                           <div className="mt-3 mt-lg-0">
                             {/* btn */}
                             <Link to="#" className="btn btn-dark">
-                              Download FreshCart App
+                              Download Zlyft App
                             </Link>
                           </div>
                         </div>
@@ -509,7 +509,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Dairy, Bread &amp; Eggs
+                                  Indian Cuisine
                                 </Link>
                               </h5>
                             </div>
@@ -628,7 +628,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Tea, Coffee &amp; Drinks
+                                  Daily Medicines
                                 </Link>
                               </h5>
                             </div>
@@ -674,7 +674,7 @@ const Home = () => {
                             <div className="mt-4">
                               <h5 className="fs-6 mb-0">
                                 <Link to="#" className="text-inherit">
-                                  Chicken, Meat &amp; Fish
+                                  Sexual Wellness
                                 </Link>
                               </h5>
                             </div>
@@ -747,7 +747,7 @@ const Home = () => {
                               <h5 className="fs-6 mb-0">
                                 {" "}
                                 <Link to="#" className="text-inherit">
-                                  Pet Care
+                                  Fast Food
                                 </Link>
                               </h5>
                             </div>
@@ -827,7 +827,7 @@ const Home = () => {
                           >
                             <div>
                               <h3 className="fw-bold mb-1">
-                                Freshly Baked Buns
+                                Hydreabadi Biryani
                               </h3>
                               <p className="mb-4">
                                 Get Upto <span className="fw-bold">25%</span>{" "}
@@ -866,7 +866,7 @@ const Home = () => {
                         <div className="mb-6">
                           <div className="mb-7">
                             {/* heading */}
-                            <h1>Get the FreshCart app</h1>
+                            <h1>Get the Zlyft app</h1>
                             <h5 className="mb-0">
                               We will send you a link, open it on your phone to
                               download the app.
