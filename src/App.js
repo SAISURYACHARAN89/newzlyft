@@ -39,7 +39,7 @@ import Medicines from "./pages/Shop/Medicines";
 const App = () => {
   return (
     <div>
-      <Router>
+      <Router basename="/">
         <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
