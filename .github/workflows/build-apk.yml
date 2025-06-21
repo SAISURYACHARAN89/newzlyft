@@ -24,12 +24,13 @@ jobs:
       - name: Install Dependencies and Sync Capacitor
         run: |
           npm install
-          npm run build
+          CI=false npm run build
           npx cap sync android
 
       - name: Build APK
         run: |
           cd android
+          chmod +x ./gradlew
           ./gradlew assembleDebug
 
       - name: Upload APK
