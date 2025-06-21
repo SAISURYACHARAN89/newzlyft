@@ -42,7 +42,7 @@ const App = () => {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/Grocery-react/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           {/* Shop pages */}
           <Route path="/Parcel" element={<Parcel />} />
           <Route path="/Food" element={<Food/>} />
